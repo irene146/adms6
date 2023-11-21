@@ -1,0 +1,123 @@
+____________________________________________________________________________
+____________________________________________________________________________
+______________________________ ADMS 6.0 (6.0) ______________________________
+_________________ Atmospheric Dispersion Modelling System __________________
+____________________________________________________________________________
+___ Copyright (C) 2023 Cambridge Environmental Research Consultants Ltd. ___
+____________________________________________________________________________
+_______________ This run was made at 16:25 on the 21/11/2023 _______________
+____________________________________________________________________________
+_______________________________ Report File ________________________________
+____________________________________________________________________________
+
+
+1. SETUP INFORMATION:
+
+ Site name         :  davetest
+ Project name      :  davetest
+ Coordinate system :  Unspecified regular Cartesian
+
+ Input file pathname            : C:\Users\Jake\Documents\adms6\test flight\imputs\testvariable\davetest.apl
+ Command-line options           : /E1 /ADMS
+
+ Model information:
+  - Pathname C:\Program Files (x86)\CERC\ADMS 6\ADMSModel.exe
+  - Version 6.0.0.1
+  - Build number 8802
+  - Release date March 2023
+
+
+2. MODEL OPTIONS:
+
+
+
+3. SOURCE OPTIONS:
+
+ Your run includes the following sources:
+
+ 1 point source
+  - 'Source00001'
+
+ POINT SOURCE GEOMETRY:
+
+                    Source name, Height(m),                 Location, Diameter(m),
+                    Source00001,    300.00,                 (.0, .0),        1.00,
+
+ SOURCE CHARACTERISTICS:
+
+                    Source name,    Mass flux(kg/s),  Temp(degC), Actual/NTP, Mol. mass(g), Cp(J/degC/Kg),
+                    Source00001,              1.000,      25.000,     Actual,       28.966,       1012.00,
+
+ EMISSION DATA:
+
+                    Source name,     Units,    Methane,
+                    Source00001,       g/s,      1.500,
+
+
+4. METEOROLOGY:
+
+ Site data:
+  - Latitude (degrees)                        =     52.00
+  - Dispersion site:
+     > Surface roughness (m)                  =       .000
+        ~ Using model default Minimum Monin-Obukhov length (m)
+        ~ Surface albedo                      =       .230 (Model default)
+        ~ Priestley-Taylor parameter          =      1.000 (Model default)
+        ~ Precipitation at dispersion site same as at met site
+  - Meteorological measurement site:
+     > Surface roughness same as dispersion site
+        ~ Minimum Monin-Obukhov length same as at dispersion site
+        ~ Surface albedo same as at dispersion site
+        ~ Priestley-Taylor parameter same as at dispersion site
+
+ Meteorological data:
+  - From file C:\Users\Jake\Downloads\twohours (1).MET
+  - Sequential met data
+  - Height of recorded wind (m)               =     10.0
+  - Met lines with wind speed at 10m less than .75m/s are not modelled
+
+
+5. BACKGROUND DATA:
+
+ Constant background values entered on screen:
+
+                      Pollutant,   Units,     Level,
+                            NOx,     ppb,     10.00,
+                            NO2,     ppb,      0.00,
+                             O3,     ppb,     40.00,
+                            VOC,     ppb,      0.00,
+                            SO2,     ppb,      0.00,
+                           PM10,   ug/m3,      0.00,
+                          PM2.5,   ug/m3,      0.00,
+                             CO,     ppb,      0.00,
+                        BENZENE,     ppb,      0.00,
+                      BUTADIENE,     ppb,      0.00,
+                            HCl,     ppb,      0.00,
+                        Methane,     ppb,      0.00,
+
+
+6. GRID OPTIONS:
+
+ Cartesian co-ordinate system
+ Gridded output
+  - Regular spacing
+  - 31x31
+  - South-West corner at (-2000.0, -2000.0)
+  - North-East corner at (2000.0, 2000.0)
+  - Number of heights                         =     10
+  - Minimum height(m)                         =    300.0
+  - Maximum height(m)                         =    600.0
+
+
+7. OUTPUT OPTIONS:
+
+ Single source modelled
+  - 'Source00001'
+
+ POLLUTANT OUTPUT DATA:
+
+                      Pollutant,                                  Statistic, Condition, Percentiles, Exceedences, Validity,
+                        Methane,     Short-term 60-second non-rolling (ppb),      None,         ---,         ---,     75.0,
+
+
+____________________________ End of Report File ____________________________

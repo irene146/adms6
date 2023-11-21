@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TatukGIS>
+  <Layer>
+    <Sections>
+      <Section>
+        <Active>YES</Active>
+        <Caption>Methane ppb</Caption>
+        <Layer3D>Off</Layer3D>
+        <CodePage>1252</CodePage>
+        <MaxHeight>2470.25</MaxHeight>
+        <Visible>YES</Visible>
+        <Pixel>
+          <ShowLegend>YES</ShowLegend>
+          <GridNoValue>1.70141E38</GridNoValue>
+          <GridShadow>NO</GridShadow>
+          <AltitudeMapZone>
+            <Zone>0,500,$14FFFF,0</Zone>
+            <Zone>500,1000,$FBFFF,500</Zone>
+            <Zone>1000,1500,$A80FF,1000</Zone>
+            <Zone>1500,2000,$540FF,1500</Zone>
+            <Zone>2000,2500,$FF,2000</Zone>
+          </AltitudeMapZone>
+        </Pixel>
+      </Section>
+    </Sections>
+  </Layer>
+</TatukGIS>
